@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .button {
+        @apply gap-y-1 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l text-2xl h-32 border border-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800 font-extrabold;
+    }
+    .button-action:hover {
+        @apply from-teal-200 to-lime-200 ;
+    }
+    .userInterfaceCalc {
+        @apply text-4xl text-blue-700 w-[384px] flex justify-center;
+    }
+    .divCenter {
+        @apply flex justify-center;
+    }
+}
